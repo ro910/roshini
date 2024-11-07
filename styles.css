@@ -1,0 +1,139 @@
+  margin:0;  
+ padding:0;  
+ box-sizing: border-box;  
+}  
+
+body {  
+ font-family: 'Arial', sans-serif;  
+ line-height:1.6;  
+ background: #f4f4f4;  
+}  
+
+header {  
+ background: linear-gradient(135deg, #3cb371, #2e8b57);  
+ color: white;  
+ padding:20px0;  
+ text-align: center;  
+ position: relative;  
+}  
+
+nav {  
+ display: flex;  
+ justify-content: space-between;  
+ align-items: center;  
+ padding:020px;  
+}  
+
+
+.logo {  
+ font-size:24px;  
+ font-weight: bold;  
+ width:100px; /* Adjust size as needed */  
+ margin-bottom:15px; /* Spacing between image and text */  
+}
+}  
+
+.nav-links {  
+ list-style: none;  
+}  
+
+.nav-links li {  
+ display: inline;  
+ margin:015px;  
+}  
+
+.nav-links a {  
+ color: white;  
+ text-decoration: none;  
+ transition: color0.3s;  
+}  
+
+.nav-links a:hover {  
+ color: #ff6347;  
+}  
+
+.hero {  
+ padding:50px20px;  
+}  
+
+.hero h1 {  
+ font-size:36px;  
+ text-shadow:2px2px rgba(0,0,0,0.2);  
+}  
+
+.hero p {  
+ margin:10px0;  
+ font-size:18px;  
+}  
+
+.cta {  
+ background: #ff6347;  
+ color: white;  
+ padding:10px20px;  
+ border: none;  
+ border-radius:5px;  
+ text-decoration: none;  
+ transition: background0.3s, transform0.3s;  
+}  
+
+.cta:hover {  
+ background: #ff4500;  
+ transform: scale(1.05);  
+}  
+
+section {  
+ padding:40px20px;  
+ text-align: center;  
+ margin:20px;  
+}  
+
+h2 {  
+ margin-bottom:20px;  
+ color: #555;  
+}  
+
+.feature-grid {  
+ display: grid;  
+ grid-template-columns: repeat(auto-fit, minmax(250px,1fr));  
+ gap:20px;  
+}  
+
+.feature {  
+ background: white;  
+ border:1px solid #ccc;  
+ border-radius:8px;  
+ padding:20px;  
+ box-shadow:02px5px rgba(0,0,0,0.1);  
+ transition: transform0.3s, box-shadow0.3s;  
+}  
+
+.feature:hover {  
+ transform: translateY(-5px);  
+ box-shadow:04px10px rgba(0,0,0,0.2);  
+}  
+
+.testimonial-slider {  
+ max-width:600px;  
+ margin:0 auto;  
+}  
+
+blockquote {  
+ font-style: italic;  
+ margin:10px0;  
+ padding:20px;  
+ background: white;  
+ border-radius:5px;  
+ box-shadow:02px5px rgba(0,0,0,0.1);  
+}  
+
+footer {  
+ background: #3cb371;  
+ color: white;  
+ text-align: center;  
+ padding:20px0;  
+}  
+
+footer a {  
+ color: #ffeb3b;  
+ text-decoration: none;  
+}
